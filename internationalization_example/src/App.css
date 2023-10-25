@@ -1,38 +1,44 @@
 .App {
+  background-image:
+          url(
+          "https://img.freepik.com/free-photo/roses-daisies-composition_23-2147804451.jpg?w=2000");
+  background-size: cover;
+  height: 160vh;
+  background-repeat:no-repeat;
+}
+#title-page{
+  font-family: "SansSerif";
+  font-size: xxx-large;
+  color: #76696c;
+  padding: 50px;
+  text-shadow: #7d332a 1px 0 7px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.grid{
+  text-align: center;
+  padding: 15px;
+  background-color: #7f3233;
+  border-radius: 25px;
+  box-shadow: 10px 10px;
+  margin-bottom: 50px;
+}
+#rose, #tulip, #orchid {
+  color: #dac2b6;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#content{
+  margin-left: 48%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#button-lng{
+  float: left;
+  position: absolute;
+  left: 5%;
+  top: 7%
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#today-date{
+  text-align: center;
+  font-weight: bold;
+  font-size: medium;
+  margin-left: 22%;
 }
