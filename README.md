@@ -22,3 +22,5 @@ To use this code, meet the following conditions:
 * run the project by executing the "npm start" command in the terminal
 * access the application through a web browser
 * navigate through the page by choosing one of the six available languages using the button located on the left
+## Presentation Link
+https://docs.google.com/presentation/d/1Uo77P5F4rvjYoDFeISFaf-8Ea9D8X-sdEGo0xybWrSs/edit?usp=sharing
