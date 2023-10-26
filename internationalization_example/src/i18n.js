@@ -8,7 +8,7 @@ i18n
     .init({
         lng: 'en',
         fallbackLng: 'en',
-        whitelist: ['en', 'ro'],
+        whitelist: ['en', 'ro', 'de', 'fr', 'es', 'ar'],
         interpolation: {
             escapeValue: false
         }
